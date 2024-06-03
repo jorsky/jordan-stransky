@@ -3,25 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Jordan Stransky's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <div class="logo">Jordan Stransky</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>This is a brief description about me.</p>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Details of my projects will go here.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact details or form can go here.</p>
-    </section>
-    <script src="script.js"></script>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I'm Jordan Stransky, an 8-year veteran with experience in Anti-terrorism, force protection, technology services, and recently Machine Learning and large language models.</p>
+                <a href="#projects" class="cta-button">View Projects</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>My name is Jordan Stransky, an 8-year veteran with experience in Anti-terrorism, force protection, technology services, and recently Machine Learning and large language models.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project-grid"></div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skill-grid"></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Email: jordan@example.com</p>
+                <p>LinkedIn: <a href="#">linkedin.com/in/jordanstransky</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Jordan Stransky. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
